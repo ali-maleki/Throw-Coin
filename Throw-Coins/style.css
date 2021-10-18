@@ -1,0 +1,33 @@
+body{
+     background-color: #f1f1f1;
+}
+.head{
+     margin: 50px auto;
+     width: 164px;
+     height: 60px;
+     border: 1px solid #000;
+     text-align: center;
+     padding-top: 15px;
+     font-size: 18px;
+     border-radius: 10px;
+     transition: 0.3s;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.head:hover{
+     background-color: pink;
+     color: #000;
+     cursor: pointer;
+     border-color: blueviolet;
+}
+.game{
+     border: 1px solid blue;
+     height: 200px;
+     margin-top: 20px;
+     padding-top: 30px;
+     border-radius: 10px;
+     background-image: linear-gradient(to right, pink, purple);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3) , 0 8px 20px 0 rgba(0, 0, 0, 0.21);
+}
+.message{
+     font-size: 20px;
+}
